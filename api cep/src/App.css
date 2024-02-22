@@ -1,0 +1,42 @@
+body{
+  background-color: rgb(34, 34, 34);
+}
+
+h1,h2,h3,p {
+  color: aliceblue;
+}
+
+.container{
+  background-color: rgb(49, 49, 49);
+  border-radius: 25px;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input{
+  width: 250px;
+  text-align: center;
+  height: 35px;
+  border-radius: 25px;
+  font-size: medium;
+  background-color: rgb(39, 39, 39);
+}
+::placeholder{
+  color: aliceblue;
+}
+
+button{
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: rgb(37, 37, 37);
+  color: aliceblue;
+  transition: .5s;
+}
+
+button:hover{
+  background-color: aliceblue;
+  color: black;
+}
